@@ -42,11 +42,16 @@ pip install -r requirements.txt
 ### code run
 #### ./tracking_video.py 진입
 
-- local video 탐지 및 추적 
+##### local video 탐지 및 추적 
+아래 코드 실행 
 ```
 
 ```
+##### real-time 탐지 및 추적 
+아래 코드 실행
+```
 
+```
 
 ### RESULTS
 
