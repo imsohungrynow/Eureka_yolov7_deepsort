@@ -5,10 +5,25 @@
 YOLOv7 Object Detection with DeepSORT Tracking </H1>
 
 ## 본 Repository
-해당 시점의 위험도를 판단하기 위한 객체 탐지 & 추적
+#### 해당 시점의 위험도를 판단하기 위한 객체 탐지 & 추적
+###### 탐지 객체
+- person, forklift, helmet
+
+###### 탐지 상황
+- UA-10 : 지게차 이동 통로에 사람이 있는 상황
+- UA-12 : 포크에 사람 탑승 금지 미준수 상황
+- UA-13 : 화물의 적재상태 불량 및 붕괴된 상황
+- falling : 작업자 부상 상황
 
 
 ## Steps to run Code  
+
+### 환경 만들기
+- Create anaconda environment
+```
+conda create -n {env name} python=3.9
+```
+
 ### 초기 세팅 방법!
 
 - Clone the repository
@@ -19,25 +34,17 @@ git clone https://github.com/imsohungrynow/Eureka_yolov7_deepsort.git
 ```
 cd Eureka_yolov7_deepsort
 ```
-- Install the dependecies
+- Install the requirements
 ```
 pip install -r requirements.txt
 ```
 
 ### code run
-```
-- After downloading the DeepSORT Zip file from the drive, unzip it go into the subfolders and place the deep_sort_pytorch folder into the YOLOv7-DeepSORT-Object-Tracking folder
+#### ./tracking_video.py 진입
 
-- Downloading a Sample Video from the Google Drive
-```
-gdown "https://drive.google.com/uc?id=1rjBn8Fl1E_9d0EMVtL24S9aNQOJAveR5&confirm=t"
+- local video 탐지 및 추적 
 ```
 
-- Run the code with mentioned command below.
-
-- For yolov7 object detection + Tracking
-```
-python deep_sort_tracking_id.py --weights yolov7.pt  --img 640  --source test1.mp4  
 ```
 
 
