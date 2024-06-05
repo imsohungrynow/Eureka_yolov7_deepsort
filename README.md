@@ -1,10 +1,9 @@
 # Eureka (동국대학교 산업 IAI 연구실)
 <H1 align="center">
-YOLOv7 Object Detection with DeepSORT Tracking(ID + Trails) </H1>
+YOLOv7 Object Detection with DeepSORT Tracking </H1>
 
 ## Eureka Prj 목표
 산업 현장 영상으로부터 실시간으로 위험 요소 및 상황을 탐지하고, 경로 예측을 통해 객체 요소 간 충돌을 예측하여 통합 위험도 산출
-
 
 ## 본 Repository
 해당 시점의 위험도를 판단하기 위한 객체 탐지 & 추적
@@ -46,3 +45,7 @@ python deep_sort_tracking_id.py --weights yolov7.pt  --img 640  --source test1.m
 ### RESULTS
 
 #### Person detection
+
+## References
+1. [YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors](https://github.com/WongKinYiu/yolov7)
+2. [Simple Online and Realtime Tracking with a Deep Association Metric (Deep SORT)](https://github.com/nwojke/deep_sort)
