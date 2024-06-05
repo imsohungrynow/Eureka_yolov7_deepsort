@@ -1,8 +1,8 @@
 # Eureka (동국대학교 산업 IAI 연구실)  
 ## Eureka Prj 목표
 산업 현장 영상으로부터 실시간으로 위험 요소 및 상황을 탐지하고, 경로 예측을 통해 객체 요소 간 충돌을 예측하여 통합 위험도 산출  
-<H1 align="center"><span style="color:gray">
-YOLOv7 Object Detection with DeepSORT Tracking </span></H1>
+<H1 align="center" style="color:gray">
+YOLOv7 Object Detection with DeepSORT Tracking </H1>
 
 ## 본 Repository
 해당 시점의 위험도를 판단하기 위한 객체 탐지 & 추적
