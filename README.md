@@ -44,7 +44,7 @@ pip install -r requirements.txt
 
 #### 객체 탐지를 위한 Yolo 가중치 파일 경로 설정
 ```
-detector.load_model('path_{.pt}',) 
+detector.load_model('path_{.pt}') 
 ```
 
 ### 실행하고 싶은 목적에 따라 주석처리하여 실행
