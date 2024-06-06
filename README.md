@@ -39,16 +39,25 @@ cd Eureka_yolov7_deepsort
 pip install -r requirements.txt
 ```
 
-### code run
-#### ./tracking_video.py 진입
-실행하고 싶은 목적에 따라 주석처리하여 실행
-##### local video 탐지 및 추적 
+## code run
+### ./tracking_video.py 진입
+
+#### 객체 탐지를 위한 Yolo 가중치 파일 경로 설정
+```
+detector.load_model('path_{.pt}',) 
+```
+
+### 실행하고 싶은 목적에 따라 주석처리하여 실행
+- data 경로
+  - IO_data/output/{video name}  
+
+#### local video 탐지 및 추적 
 아래 코드 실행 
 ```
 tracker.track_video("Local_video_path", output="Local_output_path",show_live = False, skip_frames = 0, count_objects = False, verbose=1)
 
 ```
-##### real-time 탐지 및 추적
+#### real-time 탐지 및 추적
 - webcam 연결
 아래 코드 실행
 ```
