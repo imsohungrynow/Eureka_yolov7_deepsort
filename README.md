@@ -41,16 +41,18 @@ pip install -r requirements.txt
 
 ### code run
 #### ./tracking_video.py 진입
-
+실행하고 싶은 목적에 따라 주석처리하여 실행
 ##### local video 탐지 및 추적 
 아래 코드 실행 
 ```
+tracker.track_video("Local_video_path", output="Local_output_path",show_live = False, skip_frames = 0, count_objects = False, verbose=1)
 
 ```
-##### real-time 탐지 및 추적 
+##### real-time 탐지 및 추적
+- webcam 연결
 아래 코드 실행
 ```
-
+tracker.track_video(0, output="Local_output_path",show_live = True, skip_frames = 0, count_objects = False, verbose=1)
 ```
 
 ### RESULTS
