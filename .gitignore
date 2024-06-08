@@ -6,3 +6,4 @@ weight/traced_model.pt
 ./venv
 *.pt
 *.pb
+.mp4
