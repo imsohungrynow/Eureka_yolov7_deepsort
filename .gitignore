@@ -1,0 +1,8 @@
+weight/traced_model.pt
+./weights/*.pt
+./deep_sort/model_weights/*.pb
+./IO_data/input/video/*
+./IO_data/ouput/video/*
+./venv
+*.pt
+*.pb
