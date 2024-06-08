@@ -38,6 +38,7 @@ cd Eureka_yolov7_deepsort
 ```
 pip install -r requirements.txt
 ```
+### 가중치 파일은 따로
 
 ## code run
 ### ./tracking_video.py 진입
