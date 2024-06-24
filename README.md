@@ -69,7 +69,7 @@ tracker.track_video(0, output="Local_output_path",show_live = True, skip_frames 
 1. ./IO_data/output
 - 객체 탐지 및 추적화 된 video
 2. ./track/result
-- Frame, ID, X , T (x, y 는 Bounding box의 중앙좌표)
+- Frame, ID, X, Y (x, y == Bounding box의 중앙좌표)
 
 #### Person detection
 
