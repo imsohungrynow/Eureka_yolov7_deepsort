@@ -38,7 +38,10 @@ cd Eureka_yolov7_deepsort
 ```
 pip install -r requirements.txt
 ```
-### 가중치 파일은 따로
+### 가중치 파일
+[Deepsort .pb 파일](https://drive.google.com/drive/folders/1bw8JRDOHJoo0Tlb2leswPdCUObU1igSA?usp=drive_link)
+[YOLOv7 .pt 파일](https://drive.google.com/drive/folders/1oA3fO3xlSxbzHaqAyOAZI5WsEc9tQJh1?usp=drive_link)
+- 각각 tracking_video.py 파일에 detector와 tracker 에 할당
 
 ## code run
 ### ./tracking_video.py 진입
@@ -69,7 +72,7 @@ tracker.track_video(0, output="Local_output_path",show_live = True, skip_frames 
 1. ./IO_data/output
 - 객체 탐지 및 추적화 된 video
 2. ./track/result
-- Frame, ID, X, Y (x, y == Bounding box의 중앙좌표)
+- Frame, ID, X, Y (x, y == Bounding box의 중앙좌표) 의 excel file
 
 #### Person detection
 
