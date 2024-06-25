@@ -39,7 +39,7 @@ cd Eureka_yolov7_deepsort
 pip install -r requirements.txt
 ```
 ### 가중치 파일
-[Deepsort .pb 파일](https://drive.google.com/drive/folders/1bw8JRDOHJoo0Tlb2leswPdCUObU1igSA?usp=drive_link)
+[Deepsort .pb 파일](https://drive.google.com/drive/folders/1bw8JRDOHJoo0Tlb2leswPdCUObU1igSA?usp=drive_link)  
 [YOLOv7 .pt 파일](https://drive.google.com/drive/folders/1oA3fO3xlSxbzHaqAyOAZI5WsEc9tQJh1?usp=drive_link)
 - 각각 tracking_video.py 파일에 detector와 tracker 에 할당
 
